@@ -1,0 +1,19 @@
+<web-app>
+    <servlet>
+        <servlet-name>AddStudentServlet</servlet-name>
+        <servlet-class>com.studentapp.controller.AddStudentServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AddStudentServlet</servlet-name>
+        <url-pattern>/AddStudentServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ListStudentsServlet</servlet-name>
+        <servlet-class>com.studentapp.controller.ListStudentsServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ListStudentsServlet</servlet-name>
+        <url-pattern>/ListStudentsServlet</url-pattern>
+    </servlet-mapping>
+</web-app>
